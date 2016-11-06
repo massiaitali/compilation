@@ -8,12 +8,12 @@ class Symbole
 	public $profondeur;
 
 	public function add($symbole_add, $profondeur_add){
-		this->ident == $symbole_add;
-		this->profondeur == $profondeur_add;
+		$this->ident == $symbole_add;
+		$this->profondeur == $profondeur_add;
 	}
 
 	public function retourner(){
-		return array(this->ident, this->profondeur);
+		return array($this->ident, $this->profondeur);
 	}
 }
 
