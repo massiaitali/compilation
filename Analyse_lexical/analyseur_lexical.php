@@ -26,7 +26,7 @@ function look_token($code, $position) {
 	}
 	return $code[$pos_temp];
 }
-function next_token($code, &$position) {
+function $this->next_token($code, &$position) {
 	$retourner = true;
 	while ($retourner) {
 		if ($code[$position]==" ") {
@@ -53,55 +53,55 @@ while ($position < strlen($code)-1)
 {
 	if (look_token($code, $position) == "i") 
 		{
-			next_token($code, $position);
+			$this->next_token($code, $position);
 			if (look_token($code, $position) == "f") 
 				{
 				add_token($tableau_token, "if");
-				next_token($code, $position);
+				$this->next_token($code, $position);
 				}
 		}
 	if (look_token($code, $position) == "(") 
 		{
 			add_token($tableau_token, "(");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == '2') 
 		{
 			add_token($tableau_token, "2");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == '1') 
 		{
 			add_token($tableau_token, "1");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == ";") 
 		{
 			add_token($tableau_token, ";");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == "+") 
 		{
 			add_token($tableau_token, "+");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == ")") 
 		{
 			add_token($tableau_token, ")");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == "x") 
 		{
 			add_token($tableau_token, "x");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == "=") 
 		{
-				next_token($code, $position);
+				$this->next_token($code, $position);
 			if (look_token($code, $position) == "=") 
 				{
 				add_token($tableau_token, "==");
-				next_token($code, $position);
+				$this->next_token($code, $position);
 				}
 			else 
 				add_token($tableau_token, "=");
@@ -137,7 +137,7 @@ function look_token($code, $position) {
 	}
 	return $code[$pos_temp];
 }
-function next_token($code, &$position) {
+function $this->next_token($code, &$position) {
 	$retourner = true;
 	while ($retourner) {
 		if ($code[$position]==" ") {
@@ -164,55 +164,55 @@ while ($position < strlen($code)-1)
 {
 	if (look_token($code, $position) == "i") 
 		{
-			next_token($code, $position);
+			$this->next_token($code, $position);
 			if (look_token($code, $position) == "f") 
 				{
 				add_token($tableau_token, "if");
-				next_token($code, $position);
+				$this->next_token($code, $position);
 				}
 		}
 	if (look_token($code, $position) == "(") 
 		{
 			add_token($tableau_token, "(");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == '2') 
 		{
 			add_token($tableau_token, "2");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == '1') 
 		{
 			add_token($tableau_token, "1");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == ";") 
 		{
 			add_token($tableau_token, ";");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == "+") 
 		{
 			add_token($tableau_token, "+");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == ")") 
 		{
 			add_token($tableau_token, ")");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == "x") 
 		{
 			add_token($tableau_token, "x");
-			next_token($code, $position);
+			$this->next_token($code, $position);
 		}
 	if (look_token($code, $position) == "=") 
 		{
-				next_token($code, $position);
+				$this->next_token($code, $position);
 			if (look_token($code, $position) == "=") 
 				{
 				add_token($tableau_token, "==");
-				next_token($code, $position);
+				$this->next_token($code, $position);
 				}
 			else 
 				add_token($tableau_token, "=");
