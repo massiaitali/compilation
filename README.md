@@ -2,7 +2,7 @@
 						Programmation d'un compilateur (en php) avec une syntaxe défini sur le fil
 
 						**************************************************************************
-						** 						Analyseur Lexical :	En cours					**
+						** 						Analyseur Lexical :	OK							**
 						**  					Table des symboles : OK							**									
 						**  					Analyseur synthaxique : En cours 				**
 						**************************************************************************
