@@ -135,7 +135,7 @@ function next_token() {
 		}
 	}
 }
-$code =  'for ( x = 0; x <= 10 ; x = x + 1 ) { y = x + 9 }';
+$code =  'for ( x = 0; x <= 10 ; x = x + 1 ) y = x + 9 ;';
 $test = new analyseur_lexical ;
 $test->ajout_code($code);
 $test->analyse();
