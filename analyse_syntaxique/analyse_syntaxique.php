@@ -1,5 +1,14 @@
 <?php
 /**
+* Classe Arbre
+*/
+class arbre {
+	public nom;
+	public enfant = new arbre;
+}
+
+
+/**
 * Classe Analyseur Syntaxique
 */
 class Analyseur_Synthaxique

@@ -114,7 +114,6 @@ class Symbole
 	{
 		for ($i=sizeof($this->table_symboles)-1; $i >= 0 ; $i--) { 
 			if ($this->profondeur == $this->table_symboles[$i][1] && $this->ident == $this->table_symboles[$i][0]) {
-				echo "fin";
 				return false;
 			}
 		}
