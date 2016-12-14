@@ -4,5 +4,5 @@
 						**************************************************************************
 						** 						Analyseur Lexical :	OK							**
 						**  					Table des symboles : OK							**									
-						**  					Analyseur synthaxique : En cours 				**
+						**  					Analyseur synthaxique : right 				**
 						**************************************************************************
