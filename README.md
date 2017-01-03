@@ -4,5 +4,6 @@
 						**************************************************************************
 						** 						Analyseur Lexical :	OK							**
 						**  					Table des symboles : OK							**									
-						**  					Analyseur synthaxique : right 				**
+						**  					<!-- Analyseur synthaxique : bug -->			**
+						**  					<!-- Generateur de code : non fonctionnel -->	**
 						**************************************************************************
